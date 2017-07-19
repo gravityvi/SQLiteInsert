@@ -73,6 +73,22 @@ public class SQLitedatabaseAdapter {
         return buffer.toString();
     }
 
+    public int UpdateData(String oldname,String name)
+    {
+        SQLiteDatabase db=sqlitehelper.getWritableDatabase();
+        ContentValues contentValues=new ContentValues();
+        contentValues.put(SQlitehelper.NAME,name);
+        int id=db.update(SQlitehelper.TABLE_NAME,contentValues,SQlitehelper.NAME+"=?",new String[]{oldname});
+        return id;
+    }
+
+    public int DeleteData(String name)
+    {
+        SQLiteDatabase db=sqlitehelper.getWritableDatabase();
+        int id=db.delete(SQlitehelper.TABLE_NAME,SQlitehelper.NAME+"=?",new String[]{name});
+        return id;
+    }
+
    static class SQlitehelper extends SQLiteOpenHelper{
 
 
