@@ -8,7 +8,7 @@ So this app would help them.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-###Prerequisites
+### Prerequisites
 
 The things you need to run this project on your machine are as follows
 
