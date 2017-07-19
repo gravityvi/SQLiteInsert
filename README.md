@@ -1,5 +1,6 @@
 
 
+
 # SQLiteInsert
 
 This is the project for using SQLite in android.It lets you to save your username and password and view it at times when you need it.
@@ -27,3 +28,9 @@ The steps create environment to run this project are follows:
 4. Select Start menu > Computer > System Properties > Advanced System Properties.Then open Advanced Tab > Environment Variables and add a    new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\java\jdk1.7.0 21
  
 And then you are pretty much done just open my project in android studio
+
+## Deployement
+
+Once the project is up and running on android studio just connect any of your android device with android kitkat(4.0) or up and turn on USB debugging from developer options in your phone.
+Now from your machine just click on run icon from upper side of window which has icon similar to play button 
+And your app will be installed on your mobile device and ready to use.
