@@ -25,7 +25,7 @@ The steps create environment to run this project are follows:
 1. Download JDK file If you already have one be sure to check its version(>6) by typing javac -version in terminal.
 2. Install .exe file downloaded for android studio and go through the setup wizard(if don't know anything just press next each and            everytime)
 3. On some windows machine, the launcher script does not find where Java is Installed.If you encounter this problem, you need to set          environment variale indicating the correct location.
-4. Select ** Start menu > Computer > System Properties > Advanced System Properties.Then open Advanced Tab > Environment Variables and add a    new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\java\jdk1.7.0 21 **
+4. Select **Start menu > Computer > System Properties > Advanced System Properties.Then open Advanced Tab > Environment Variables and add a    new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\java\jdk1.7.0 21**
  
 And then you are pretty much done just open my project in android studio
 
