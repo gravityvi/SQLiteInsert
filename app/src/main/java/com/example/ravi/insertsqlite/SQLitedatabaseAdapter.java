@@ -89,7 +89,7 @@ public class SQLitedatabaseAdapter {
         return id;
     }
 
-   static class SQlitehelper extends SQLiteOpenHelper{
+   static class SQlitehelper extends SQLiteOpenHelper{ // we are creating this extra class  as we dont wanna give access of this strings to other class, if we created this methods in main activity then we would be needing the values f strings used
 
 
         private static final String DATABASE_NAME="UsersDatabase";
